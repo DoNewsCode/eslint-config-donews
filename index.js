@@ -62,5 +62,6 @@ module.exports = {
     '@typescript-eslint/no-shadow': ['error'],
     //ECMAScript 6
     'prefer-const': 'error',
-    'sort-imports': ['error', { ignoreDeclarationSort: true, ignoreCase: true }],  }
+    'sort-imports': ['error', { ignoreDeclarationSort: true, ignoreCase: true }],
+  },
 };
