@@ -53,7 +53,10 @@ module.exports = {
     '@typescript-eslint/no-magic-numbers': ['off', { ignoreEnums: true, ignoreArrayIndexes: true }],
     'no-useless-concat': ['error'],
     //Stylistic Issues: These rules relate to style guidelines, and are therefore quite subjective:
-    'max-len': ['error', { code: 100, ignoreComments: true }],
+    'max-len': [
+      'error',
+      { code: 100, ignoreComments: true, ignoreStrings: true, ignoreTemplateLiterals: true },
+    ],
     quotes: ['error', 'single', { allowTemplateLiterals: true }],
     'spaced-comment': ['error', 'always', { exceptions: ['-', '+'] }],
     //Variables: These rules relate to variable declarations:
